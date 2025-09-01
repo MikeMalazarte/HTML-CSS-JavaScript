@@ -1,0 +1,45 @@
+body {
+    display: block;
+    text-align: center;
+}
+
+#myButton {
+    margin-top: 100px;
+    margin-bottom:50px;
+    font-size: 4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: crimson;
+    background-color: gold;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+#myButton:hover {
+    background-color: mintcream;
+}
+
+.myLabels{
+    
+    color: rgb(255, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30em;
+}
+
+#label1{
+    background-color: aqua;
+    border-radius: 5px;
+    margin: 5px;
+    justify-content: space-between;
+}
+#label2{
+    background-color: rgb(0, 255, 89);
+    border-radius: 5px;
+    margin: 5px;
+    justify-content: space-between;
+}
+#label3{
+    background-color: rgb(0, 76, 255);
+    border-radius: 5px;
+    margin: 5px;
+    justify-content: space-between;
+}

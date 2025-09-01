@@ -1,0 +1,42 @@
+body{
+    background-color: beige;
+    display: block;
+    text-align: center;
+}
+
+#h1 {
+    font-size: 4em;
+    color: rgb(255, 119, 0);
+    font-family: cursive;
+}
+
+label[for="guessBox"] {
+  font-size: 3em;
+  color: green;
+  font-family: cursive;
+}
+
+#guessBox{
+    font-family: cursive;
+    font-size: 40px;
+    color: rgb(255, 0, 0);
+}
+
+#subButton {
+    background-color: deeppink;
+    font-family: cursive;
+    font-size: 3em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+#subButton:hover{
+    background-color: rgb(249, 136, 196);
+}
+
+#msg1{
+    color: rgb(8, 122, 253);
+    font-family: cursive;
+    font-size: 3em;
+}

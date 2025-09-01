@@ -1,0 +1,55 @@
+body{
+    display: block;
+    text-align: center;
+}
+
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5em;
+    background-color: rgb(255, 25, 0);
+    width: 25%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+label{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+}
+
+input{
+    font-size: 2.5em;
+    width: 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+button{
+    font-size: 2.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+button:hover{
+    background-color: crimson;
+}
+
+button:active{
+    background-color: rgb(255, 255, 255);
+}
+
+#rollResult{
+    margin: 25px;
+    font-size: 2.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#imageResult img{
+    width: 200px;
+}

@@ -1,0 +1,18 @@
+body{
+    display: block;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#subs {
+    font-size: 20px;
+}
+
+#checkB{
+    transform: scale(1.5);
+}
+
+#but{
+    font-weight: bold;
+    font-size: 1.5em;
+}
